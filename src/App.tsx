@@ -60,9 +60,7 @@ function App() {
 
   return (
     <main className="mx-auto grid min-h-screen max-w-2xl gap-4 p-4 md:p-6">
-      <header className="pt-3 text-center">
-        <h1 className="text-5xl font-black tracking-[0.2em] text-slate-100">FLAGGER</h1>
-      </header>
+
 
       <FlagCard
         flagSvg={currentRound.correct.flagSvg}
